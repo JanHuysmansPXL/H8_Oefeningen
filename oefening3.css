@@ -15,11 +15,12 @@ header, nav, main, footer {
 }
 
 header {
-    background-color: #74c6e8;
+    background-color: #d7ccc1;
     font-family: Schoolbell, fantasy;
-    padding: 4rem;
+    padding: 3rem;
     text-align: center;
 }
+
 
 header h1 {
     font-size: 2.5rem;
@@ -30,7 +31,7 @@ header p {
 }
 
 header .bluetext {
-    color: #348dad;
+    color: #645d47;
 }
 
 nav {
@@ -53,6 +54,11 @@ nav ul li {
 
 nav ul li a:hover {
     background-color: #DDDDDD;
+    color: #1F272A;
+}
+
+nav ul li a:active {
+    background-color: #d7ccc1;
     color: #1F272A;
 }
 
@@ -119,7 +125,17 @@ footer p {
 @media screen and (max-width: 700px) {
 
     nav {
-        flex-direction: column;
+        display: block;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        display: inline;
+        text-align: center;
+        width: 100%;
     }
 
     main {
