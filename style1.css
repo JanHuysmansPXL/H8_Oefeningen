@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #434372;
+    color: #FFF;
+    padding: 1rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*  Standaard - Flex-direction: Row,  flex-wrap: nowrap
+    justify content: flex-start, flex-end, center + space-around, space-between, space-evenly. (per kolom horizontaal)
+    Align content; Zelfde maar verticaal (per rij)
+    align-items: Baseline - lijnt items uit op de eerste tekstregel van het item. -
+    Align Items - Per rijhoogte,
+    Align-Content- geheel van de inhoud.
+*/
+
+main {
+    background-color: #CCC;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+main article {
+    background-color: #FFF;
+    margin: 1rem;
+    padding: 1rem;
+    width: 250px;
+}
+
+footer   {
+    background-color: #434372;
+    color: #FFF;
+    padding: 1rem;
+    text-align: center;
+}
+
+#item2 h1 {
+    font-size: 40px;
+}
