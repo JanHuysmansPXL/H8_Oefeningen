@@ -1,0 +1,138 @@
+/*
+
+#1F272A , #343A40, #3386A7, #DDDDDD, #F1F1F1 , #000000
+
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, footer {
+    width: 100%;
+}
+
+header {
+    background-color: #74c6e8;
+    font-family: Schoolbell, fantasy;
+    padding: 4rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    padding: 1rem;
+}
+
+header .bluetext {
+    color: #348dad;
+}
+
+nav {
+    background-color: #1F272A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+  /*  justify-content: space-around; */
+}
+
+nav ul li {
+    height: 100%;
+}
+
+nav ul li a:hover {
+    background-color: #DDDDDD;
+    color: #1F272A;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    text-decoration: none;
+    padding: 1.5rem;
+    display: block;
+}
+
+main {
+    display: flex;
+}
+
+main article {
+    font-family: Schoolbell, fantasy;
+    width: 75%;
+    padding: 3rem;
+}
+
+main article h2 {
+    margin-bottom: 1rem;
+}
+
+main article img {
+    width: 100%;
+}
+
+main article p {
+    margin-top: .8rem;
+    width: 100%;
+}
+
+main aside {
+    padding: 3rem;
+    background-color: #F1F1F1;
+    width: 25%;
+}
+
+main aside h2{
+    font-family: Schoolbell, fantasy;
+}
+
+main aside p {
+    font-family: "Segoe UI", sans-serif;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #1F272A;
+    padding: 1rem;
+}
+
+footer p {
+    color: #DDDDDD;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    font-size: .7rem;
+}
+
+@media screen and (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main article {
+        width: 100%;
+    }
+
+    main aside {
+        width: 100%;
+    }
+
+}
+
