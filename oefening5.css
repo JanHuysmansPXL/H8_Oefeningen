@@ -1,0 +1,101 @@
+/*
+
+#111111, #FFFFFF en #E40515.
+responsive design voor schermbreedtes tussen 2500px en 500px.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.top-bar p {
+    margin: .2rem 1rem;
+}
+
+.nav-bar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #1F272A;
+    color: #CCCCCC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 4rem;
+}
+
+.nav-bar__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar__logo__text {
+    font-size: 2rem;
+    color: #ffdd32;
+    margin-right:.4rem;
+}
+
+.nav-bar__logo__icon {
+    color: #ffdd32;
+}
+
+.nav-bar__iconlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-bar__iconlist_item {
+    padding: 1rem;
+    color: #CCCCCC;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero__image {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.hero__h1 {
+    color: #ffdd32;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 1rem 2rem;
+    position: absolute;
+    top: 12rem;
+    right: 8rem;
+    display: flex;
+}
+
+.hero__h2 {
+    font-size: .8rem;
+    color: #ffdd32;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: .5rem 1rem;
+    position: absolute;
+    top: 16.4rem;
+    right: 8rem;
+    display: flex;
+}
