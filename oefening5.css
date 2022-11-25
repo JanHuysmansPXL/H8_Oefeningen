@@ -187,3 +187,57 @@ main {
 }
 
 /* FOOTER MET MAP EN INFO IN LIST +  BACK TO TOP KNOP*/
+
+footer {
+    width: 100%;
+    margin: 4rem auto 0 auto;
+    background-color: #1F272A;
+}
+
+footer iframe {
+    background-color: #DDDDDD;
+}
+
+.ct-container {
+    width: 80%;
+    padding: 2rem 0;
+    margin: 0 auto;
+    color: #DDDDDD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ct-container__map {
+    width: calc(100% / 2 - 4%);
+    height: 20rem;
+}
+
+.ct-container__text {
+    text-align: right;
+}
+
+.ct-container__h1 {
+    color: #ffdd32;
+    margin: 1rem 0;
+}
+
+.ct-container__text a {
+    color: #DDDDDD;
+}
+
+aside {
+    position: relative;
+}
+
+aside a {
+    padding: 25px;
+    background-color: #ffdd32;
+    color: #1F272A;
+    font-weight: bold;
+    bottom: 2rem;
+    right: 2rem;
+    text-decoration: none;
+    position: fixed;
+    z-index: 2;
+}
